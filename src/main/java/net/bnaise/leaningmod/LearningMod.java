@@ -1,5 +1,6 @@
 package net.bnaise.leaningmod;
 
+import net.bnaise.leaningmod.block.ModBlocks;
 import net.bnaise.leaningmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,6 +16,7 @@ public class LearningMod implements ModInitializer {
 	public void onInitialize() {
 
 		ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
 
 	}
 }
