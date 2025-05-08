@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "learningmod",
+	"version": "${version}",
+	"name": "Learning Mod",
+	"description": "This is my own mod yay!",
+	"authors": [
+		"B. Naise"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/learningmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bnaise.leaningmod.LearningMod"
+		],
+		"fabric-datagen": [
+			"net.bnaise.leaningmod.LearningModDataGenerator"
+		],
+		"client": [
+			"net.bnaise.leaningmod.LearningModClient"
+		]
+	},
+	"mixins": [
+		"learningmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
