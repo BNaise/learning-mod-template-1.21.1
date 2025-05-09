@@ -1,5 +1,10 @@
 {
   "item.learningmod.pink_garnet": "Pink Garnet",
   "item.learningmod.raw_pink_garnet": "Raw Pink Garnet",
-  "item.learningmod.pink_garnet_block": "Pink Garnet Block"
+
+  "block.learningmod.pink_garnet_block": "Block of Pink Garnet",
+  "block.learningmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "itemgroup.learningmod.pink_garnet_items": "Pink Garnet Items",
+  "itemgroup.learningmod.pink_garnet_blocks": "Pink Garnet Blocks"
 }
